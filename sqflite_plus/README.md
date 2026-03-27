@@ -1,5 +1,7 @@
 # sqflite_plus
 
+# 技术支持邮箱(1539841933@qq.com)。
+
 [![pub package](https://img.shields.io/pub/v/sqflite_plus.svg)](https://pub.dev/packages/sqflite_plus)
 
 SQLite plugin for [Flutter](https://flutter.io).

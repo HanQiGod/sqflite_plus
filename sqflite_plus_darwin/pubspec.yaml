@@ -1,9 +1,7 @@
 name: sqflite_plus_darwin
-repository: https://github.com/tekartik/sqflite/tree/master/sqflite_plus_darwin
-issue_tracker: https://github.com/tekartik/sqflite/issues
 description: iOS/MacOS flutter plugin for SQLite, a self-contained, high-reliability,
   embedded, SQL database engine.
-version: 2.4.1+1
+version: 2.5.0
 
 # This package supports all platforms listed below.
 platforms:
@@ -13,9 +11,6 @@ platforms:
 topics:
   - sql
   - database
-
-funding:
-  - https://github.com/sponsors/alextekartik
 
 environment:
   sdk: ^3.7.0
@@ -38,9 +33,9 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
-  sqflite_plus_platform_interface: '>=2.4.0-0 <4.0.0'
+  sqflite_plus_platform_interface: '>=2.5.0 <4.0.0'
   meta: '>=1.7.0 <3.0.0'
-  sqflite_plus_common: '>=2.5.4+5 <4.0.0'
+  sqflite_plus_common: '>=2.6.0 <4.0.0'
   path: '>=1.8.0 <3.0.0'
 
 dev_dependencies:

@@ -1,9 +1,7 @@
 name: sqflite_plus
-repository: https://github.com/tekartik/sqflite/tree/master/sqflite_plus
-issue_tracker: https://github.com/tekartik/sqflite/issues
-description: Flutter plugin for SQLite, a self-contained, high-reliability,
-  embedded, SQL database engine.
-version: 2.4.1
+repository: https://github.com/HanQiGod/sqflite_plus/tree/main/sqflite_plus
+description: Flutter 升级 3.35.7 之后，对 sqflite 插件的升级（After Flutter upgrade 3.35.7, the upgrade of sqflite plugins.）。
+version: 2.5.0
 
 # This package supports all platforms listed below.
 platforms:
@@ -37,10 +35,10 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
-  sqflite_plus_android: ">=2.4.0-1 <4.0.0"
-  sqflite_plus_darwin: ">=2.4.1 <4.0.0"
-  sqflite_plus_platform_interface: ">=2.4.0-0 <4.0.0"
-  sqflite_plus_common: ">=2.5.0-1 <4.0.0"
+  sqflite_plus_android: ">=2.5.0 <4.0.0"
+  sqflite_plus_darwin: ">=2.5.0 <4.0.0"
+  sqflite_plus_platform_interface: ">=2.5.0 <4.0.0"
+  sqflite_plus_common: ">=2.6.0 <4.0.0"
   path: ">=1.8.0 <3.0.0"
 
 dev_dependencies:

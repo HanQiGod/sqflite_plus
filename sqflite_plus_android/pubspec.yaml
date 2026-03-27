@@ -1,9 +1,8 @@
 name: sqflite_plus_android
-repository: https://github.com/tekartik/sqflite/tree/master/sqflite_plus_android
-issue_tracker: https://github.com/tekartik/sqflite/issues
+repository: https://github.com/HanQiGod/sqflite_plus/tree/main/sqflite_plus_android
 description: Android flutter plugin for SQLite, a self-contained, high-reliability,
   embedded, SQL database engine.
-version: 2.4.0
+version: 2.5.0
 
 # This package supports all platforms listed below.
 platforms:

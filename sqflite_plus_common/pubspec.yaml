@@ -1,9 +1,7 @@
 name: sqflite_plus_common
-homepage: https://github.com/tekartik/sqflite/tree/master/sqflite_plus_common
+repository: https://github.com/HanQiGod/sqflite_plus/tree/main/sqflite_plus_common
 description: Dart wrapper on SQLite, a self-contained, high-reliability, embedded, SQL database engine.
-version: 2.5.5
-funding:
-  - https://github.com/sponsors/alextekartik
+version: 2.6.0
 
 environment:
   sdk: ^3.7.0
