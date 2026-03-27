@@ -1,0 +1,19 @@
+name: sqflite_plus_support
+description: Sqflite support tools
+version: 0.1.0
+homepage: https://github.com/tekartik/sqflite
+publish_to: none
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  pub_semver: ">=2.0.0"
+  lints: '>=5.0.0'
+  process_run: '>=1.2.0'
+  dev_build: '>=1.0.0+14'
+  test:
+  path:
+
+
+dependency_overrides:

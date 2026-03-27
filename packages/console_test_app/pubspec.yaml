@@ -1,0 +1,25 @@
+name: sqflite_ffi_console_test_app
+description: A simple sqflite console application.
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  sqflite_plus_common_ffi:
+  sqflite_plus_common:
+
+dev_dependencies:
+  lints: '>=2.0.0'
+  test: '>=1.21.0'
+  process_run: '>=0.14.2'
+
+dependency_overrides:
+  sqflite_plus_common:
+    path: ../../sqflite_plus_common
+  sqflite_plus_common_ffi:
+    path: ../../sqflite_plus_common_ffi
+
+executables:
+  sqflite_ffi_simple_bin:
